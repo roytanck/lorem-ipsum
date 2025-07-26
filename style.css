@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+}
+
+body {
+    padding: 0 1rem;
+    margin: 0;
+    height: 100%;
+    background-color: #dde;
+    color: #444;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-bottom: 2.5rem;
+    line-height: normal;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin-bottom: 1.65rem;
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+#content {
+    margin: 6rem 0 3rem 0;
+    line-height: 1.65rem;
+}
+
+#credits {
+    height: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+    input#password {
+        height: 2rem;
+        font-size: 1.33rem;
+    }
+}
