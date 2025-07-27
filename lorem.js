@@ -1,7 +1,7 @@
 const init = () => {
 	const nrofParagraphs = 5;
-	const minSentences = 4;
-	const maxSentences = 8;
+	const minSentences = 3;
+	const maxSentences = 7;
 	const minWords = 4;
 	const maxWords = 10;
 
