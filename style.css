@@ -1,14 +1,15 @@
 html {
     height: 100%;
+    font-size: 20px;
 }
 
 body {
     padding: 0 2rem;
     margin: 0;
     height: 100%;
-    background-color: #dde;
+    background-color: #eed;
     color: #444;
-    font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+    font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
 }
 
 h1 {
