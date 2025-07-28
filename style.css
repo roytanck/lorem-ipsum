@@ -4,7 +4,7 @@ html {
 }
 
 body {
-	padding: 0;
+	padding: 0 2rem;
 	margin: 0;
 	height: 100%;
 	background-color: #eed;
@@ -50,6 +50,6 @@ p {
 
 @media screen and (max-width: 600px) {
 	#container {
-		margin: 2.5rem auto;
+		padding: 2.5rem 0;
 	}
 }
