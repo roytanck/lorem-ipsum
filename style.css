@@ -1,51 +1,54 @@
 html {
-    height: 100%;
-    font-size: 120%;
+	height: 100%;
+	font-size: 120%;
 }
 
 body {
-    padding: 0 2rem;
-    margin: 0;
-    height: 100%;
-    background-color: #eed;
-    color: #444;
-    font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	background-color: #eed;
+	color: #444;
+	font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
 }
 
 h1 {
-    font-size: 2.5rem;
-    font-weight: normal;
-    margin-bottom: 2.5rem;
-    line-height: normal;
+	font-size: 2.5rem;
+	font-weight: normal;
+	margin-bottom: 2.5rem;
+	line-height: normal;
 }
 
 a {
-    color: #333;
-    text-decoration: none;
+	color: #333;
+	text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 p {
-    margin-bottom: 1.65rem;
+	margin-bottom: 1.65rem;
+}
+
+p:last-child {
+	margin-bottom: 3.3rem;
 }
 
 #container {
-    margin: 6rem auto;
-    max-width: 500px;
-    line-height: 1.65rem;
-    text-wrap: pretty;
+	margin: 5rem auto;
+	max-width: 500px;
+	line-height: 1.65rem;
+	text-wrap: pretty;
 }
 
 #credits {
-    padding: 3rem 0;
-    font-size: 0.85rem;
+	font-size: 0.85rem;
 }
 
 @media screen and (max-width: 600px) {
-    #container {
-        margin: 3rem auto;
-    }
+	#container {
+		margin: 2.5rem auto;
+	}
 }
