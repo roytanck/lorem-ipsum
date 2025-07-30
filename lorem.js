@@ -4,6 +4,7 @@ const init = () => {
 	const maxSentences = 7;
 	const minWords = 4;
 	const maxWords = 10;
+	const commaProb = 0.1;
 
 	let field = document.getElementById( 'lorem' );
 	// Words.
@@ -46,7 +47,6 @@ const init = () => {
 		'eiusmod',
 		'elementum',
 		'elit',
-		'elit,',
 		'enim',
 		'esse',
 		'est',
@@ -148,11 +148,14 @@ const init = () => {
 					w = 2;
 				}
 				let random = Math.floor( Math.random() * words.length );
+				let word = words[ random ];
 				if( w === 0 ){
-					sentenceWords.push( ucFirst( words[ random ] ) );
-				} else {
-					sentenceWords.push( words[ random ] );
+					word = ucFirst( word );
 				}
+				if( w > 1 && w < nrofWords-2 && Math.random() < commaProb ){
+					word += ',';
+				}
+				sentenceWords.push( word );
 			}
 			sentences.push( sentenceWords.join(' ') + '.' );
 		}
